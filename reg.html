@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<script src="script/reg.js" defer></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Регистрация</title>
+		<link rel="stylesheet" href="style/reg.css">
+		<link rel="shortcut icon" href="kart\logotip.png" type="image/x-icon">
+	</head>
+	<body>
+		<div id="okno">
+		
+			<div id="reg">
+				<div class="container mt-4">
+					<h1>Форма регистрации</h1>
+					<form action="check.php" method="post">
+						<input type="text" class="form-control" name="login"
+						id="login" placeholder="Ведите логин"><br>
+						<input type="text" class="form-control" name="name"
+						id="name" placeholder="Ведите ФИО"><br>
+						<input type="password" class="form-control" name="pass"
+						id="pass" placeholder="Ведите пароль"><br>
+						<input type="text" class="form-control" name="ml"
+						id="ml" placeholder="Ведите почту"><br>
+						<button id="regd" class="btn btn-success"
+						type="submit">Зарегистрироваться</button>
+					</form>	
+				</div>
+						<button id="spon">Спонсор</button>
+						<button id="pred">Предприниматель</button>
+				<div id="est"><u>Авторизироваться</div>
+			</div>
+			<div id="log">
+				<div class="container mt-4">
+					<h1>Форма авторизации</h1>
+				
+					<form action="auth.php" method="post">
+						<input type="text" class="form-control" name="login"
+						id="login" placeholder="Ведите логин"><br>
+						<input type="password" class="form-control" name="pass"
+						id="pass" placeholder="Ведите пароль"><br>
+						<button class="btn btn-success" id="aut"
+							type="submit">Авторизироваться
+						</button>
+						</form>
+				</div>
+				<div id="nety"><u>Зарегистрироваться</div>
+			</div>
+			<div id="polos"><img src="kart\panel.png" width="100%" height="100%"></div>
+			<div id="logo"><img src="kart\logo.png" width="100%" height="100%"></div>
+		</div>
+	</body>
+</html>

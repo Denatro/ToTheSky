@@ -1,0 +1,209 @@
+@import url ('https://fonts.googleapis.com/css2? family = Comfortaa: wght @ 300 & display = swap');
+body{margin:auto;}
+#logo{
+	top:-25px;
+	position:absolute;
+	width:200px;
+	height:100px;
+	left:50%;
+	margin-left:-100px;
+}
+#black{
+	position:absolute;
+	background:#00000080;
+	width:0px;
+	height:0px;
+	top:0px;
+	left:0px;
+}
+#panel{
+	height:55px;
+	background:white;
+	padding-top:5px;
+	padding-left:5px;
+}
+#poloska{
+	background: linear-gradient(180deg, silver -60px, white );
+	height:35px;
+	padding-top:5px;
+	padding-left:5px;
+}
+#knopka{
+	position:absolute;
+	height:50px;
+	width:50px;
+	border-radius: 10px;
+	top:5px;
+	left:3px;
+	/* transition:all ease 1s; */
+	transition:all ease 1s;
+}
+#menu{
+	position:absolute;
+	background:white;
+	height:700px;
+	width:250px;
+	left:-250px;
+	top:5px;
+	transition:all ease 1s;
+	border-radius:0px 20px 20px 0px;
+}
+#d1, #d2{
+	font-size:20px;
+	font-family: "Comfortaa";
+	position:absolute;
+	background:white;
+	width:200px;
+	height:40px;
+	top:80px;
+	left:100px;;
+	margin-left:-100px;
+	color:#4991c5;
+	border:0px solid black;
+}
+#d2{
+	top:140px;
+	position:absolute;
+}
+#sokr{
+	position:absolute;
+	width:150px;
+	height:75px;
+	top:15px;
+	left:50%;
+	margin-left:-50px;
+}
+#anketa{
+	position:absolute;
+	background:white;
+	width:800px;
+	height:500px;
+	top:20%;
+	left:50%;
+	margin-left:-400px;
+	border-radius:50px;
+	border:2px solid black;
+}
+#name, #type,#money,#prez,#video,#sostav,#idea{
+	font-family: "Comfortaa";
+	font-size:20px;
+	position:absolute;
+	width:400px;
+	height:25px;
+	top:0px;
+	left:100px;
+}
+#type{
+	top:40px;
+	left:25px;
+}
+#money{
+	left:490px;
+	top:400px;
+}
+#prez{
+	top:350px;
+	left:25px;
+}
+#video{
+	top:400px;
+	left:25px;
+}
+#sostav{
+	left:490px;
+	top:280px;
+}
+#idea{
+	top:77px;
+	left:25px;
+}
+#q1, #q2,#q3,#q4,#q5,#q6,#q7{
+	font-family: "Comfortaa";
+	font-size:20px;
+	position:absolute;
+	width:225px;
+	height:25px;
+	top:0px;
+	left:310px;
+}
+#q2{
+	top:40px;
+	left:170px;
+}
+#q3{
+	left:490px;
+	top:420px;
+}
+#q4{
+	top:370px;
+	left:25px;
+}
+#q5{
+	top:420px;
+	left:25px;
+}
+#q6{
+	left:490px;
+	top:300px;
+}
+#q7{
+	top:97px;
+	left:25px;
+	width:400px;
+	height:240px;
+}
+#exit{
+	font-family: "Comfortaa";
+	font-size:20px;
+	position:absolute;
+	width:225px;
+	height:25px;
+	top:450px;
+	left:50%;
+	margin-left:-115px;
+}
+
+#anketa2{
+	position:absolute;
+	background:white;
+	width:800px;
+	height:500px;
+	top:20%;
+	left:50%;
+	margin-left:-400px;
+	border-radius:50px;
+	border:2px solid black;
+}
+#name2, #type2,#money2,#prez2,#video2,#sostav2,#idea2{
+	font-family: "Comfortaa";
+	font-size:20px;
+	position:absolute;
+	width:400px;
+	height:25px;
+	top:0px;
+	left:100px;
+}
+#type2{
+	top:40px;
+	left:25px;
+}
+#money2{
+	left:490px;
+	top:400px;
+}
+#prez2{
+	top:350px;
+	left:25px;
+}
+#video2{
+	top:400px;
+	left:25px;
+}
+#sostav2{
+	left:490px;
+	top:280px;
+}
+#idea2{
+	top:77px;
+	left:25px;
+}

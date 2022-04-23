@@ -1,0 +1,147 @@
+body{background:lightgray}
+input{
+	padding-left:10px;
+}
+#logo{
+	position:absolute;
+	width:225px;
+	height:125px;
+	top:-5px;
+	left:50%;
+	margin-left:-112.5px;
+}
+#okno{
+	position:absolute;
+	background:red;
+	width:400px;
+	height:500px;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+	margin-top:-250px;
+	overflow:hidden;
+	text-align: center;
+	border-radius:20px;
+}
+#polos{
+	position:absolute;
+	width:100%;
+	height:130px;
+	top:-2px;
+	left:-2px;
+	border: 2px solid black
+}
+#reg{
+	position:absolute;
+	background:white;
+	width:100%;
+	height:100%;
+	left:100%;
+	transition:all ease 0.8s;
+}
+#log{
+	position:absolute;
+	background:white;
+	width:100%;
+	height:100%;
+	left:0%;
+	transition:all ease 0.8s;
+}
+#login{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 25px;
+	top:200px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+#pass{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 25px;
+	top:230px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+#aut{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 35px;
+	top:300px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+#nety, #est{
+	position:absolute;
+	color:#4991c5;
+	width: 150px;
+	height: 35px;
+	top:350px;
+	left:50%;
+	margin-left:-75px;
+	text-align:center;
+}
+#est{
+	top:375px;
+}
+#nety:hover, #est:hover{
+	color:#56aded;
+}
+#name{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 25px;
+	top:170px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+#ml{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 25px;
+	top:260px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+#regd{
+	position:absolute;
+	background:lightgray;
+	width: 200px;
+	height: 35px;
+	top:325px;
+	left:50%;
+	margin-left:-100px;
+	border-radius: 20px;
+	border:0px solid lightgray;
+}
+
+#spon, #pred{
+	background:#f0a664;
+	position:absolute;
+	color:white;
+	width: 125px;
+	height: 30px;
+	top:290px;
+	left:50px;
+	text-align:center;
+	border-radius: 20px;
+	border:0px solid white;
+}
+#pred{
+	left:225px;
+}
